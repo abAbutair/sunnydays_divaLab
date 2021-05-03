@@ -1,0 +1,15 @@
+{
+  "name": "sunnydays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass-ltr": "node-sass scss/imports.scss css/style_ltr.css -w",
+    "compile:sass-rtl": "node-sass scss/imports.scss css/style_rtl.css -w"
+  },
+  "author": "Diva-lab",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

@@ -1,0 +1,98 @@
+$big-size:55px;
+$big-size-02: 50px;
+$title-size:25px;
+$nav-size:16px;
+$normal-size:16px;
+$small-size:14px;
+$extra-small: 12px;
+
+/*----- colors -----*****************************************/
+$main-clr : #003974;
+$scd-main-clr : #f58220;
+$form-bg : #f4f4f4;
+
+$white-txt : #fff;
+$gray-txt : #333;
+
+
+/*----- spacing -----*****************************************/
+$secPadding: 50px 0 55px 0;
+
+
+
+
+
+/*----- translate -----*****************************************/
+$isRtl: ltr;
+//directions -------
+$left: left;
+$right: right;
+$flex-direction:row;
+$minus: 1;
+$plus: -1;
+
+// icons -----
+$double-right: "\f101";
+$double-left: "\f100";
+$chevron-left:"\f053";
+$chevron-right:"\f054";
+
+//font family ------
+$bodyFont: 'roboto-regular';
+$headingFont: 'roboto-bold';
+$medium-font: 'roboto-med';
+
+// font size -------
+
+
+
+@if $isRtl == rtl
+{
+    //directions -------
+    $left: right;
+    $right: left;
+    $flex-direction:row-reverse;
+    $minus: -1;
+    $plus: 1;
+
+    // icons -----
+    $double-right: "\f100";
+    $double-left: "\f101";
+    $chevron-left:"\f054";
+    $chevron-right:"\f053";
+
+    //font family ------
+    $bodyFont: 'roboto-regular';
+    $headingFont: 'roboto-bold';
+    $medium-font: 'roboto-med';
+
+
+    // font size -------
+
+
+}
+@else {
+    //directions -------
+    $left: left;
+    $right: right;
+    $direction:ltr;
+    $flex-direction:row;
+    $minus: 1;
+    $plus: -1;
+
+    // icons -----
+    $double-right: "\f101";
+    $double-left: "\f100";
+    $chevron-left:"\f053";
+    $chevron-right:"\f054";
+
+    //font family ------
+    $bodyFont: 'roboto-regular';
+    $headingFont: 'roboto-bold';
+    $medium-font: 'roboto-med';
+
+
+    // font size -------
+
+
+}
